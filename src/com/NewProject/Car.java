@@ -2,7 +2,7 @@ package com.NewProject;
 
 import java.util.Objects;
 
-public class Car {
+public abstract class Car implements Serviceable{
 
     String name;
     int yearOfProduction;
@@ -31,13 +31,6 @@ public class Car {
         distanceOnService += additinalDistance;
     }
 
-    public boolean isReadyToService(){
-        if (distanceOnService > 10000){
-            return true;
-        } else {
-            return false;
-        }
-    }
 
     public int getDistance() {
         return distance;

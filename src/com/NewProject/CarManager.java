@@ -3,12 +3,12 @@ package com.NewProject;
 public class CarManager {
     public static void main(String[] args) {
 
-        PassengerCar prius = new PassengerCar("Toyota Prius",2008,15000,1200, Color.GREEN);
+       Car prius = new PassengerCar("Toyota Prius",2008,15000,1200, Color.BLACK);
 
 
 
-        Bus renualt = new Bus("renualt Laguna", 2000,9700,1600, Color.WHITE);
-        Bus renualt2 = new Bus("renualt Laguna", 2000,9700,1600, Color.WHITE);
+        Car renualt = new Bus("renualt Laguna", 2000,9700,1600, Color.WHITE);
+        Car renualt2 = new Bus("renualt Laguna", 2000,9700,1600, Color.WHITE);
 
 
         prius.addDistance(1000);

@@ -1,5 +1,5 @@
 package com.NewProject;
 
 public enum Color {
-    WHITE, GREEN, BLACK, BLUE
+    WHITE, GREEN, BLACK, BLUE, ORANGE
 }
