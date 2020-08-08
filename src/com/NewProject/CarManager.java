@@ -27,6 +27,7 @@ public class CarManager {
 */
         System.out.println(prius.isReadyToService());
         System.out.println(renualt.isReadyToService());
+//        System.out.println(renualt2.isReadyToService());
 
 
     }
